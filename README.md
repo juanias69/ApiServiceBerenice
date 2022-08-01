@@ -4,16 +4,16 @@ Prueba Tecnica - Jeisson Juanias
 Consumo de API
 
 [GET] 
-  https://serviceapijeissonjuanias.azurewebsites.net/api/Product
+  https://localhost:7265/api/Product
   
 [GET] 
-  https://serviceapijeissonjuanias.azurewebsites.net/api/Product/{id}
+  https://localhost:7265/api/Product/{id}
   
 [GET] 
-  https://serviceapijeissonjuanias.azurewebsites.net/api/Product/{text}
+  https://localhost:7265/api/Product/{text}
   
 [POST]
-  https://serviceapijeissonjuanias.azurewebsites.net/api/Product
+ https://localhost:7265/api/Product/Product
   
   Request body
     
@@ -28,7 +28,7 @@ Consumo de API
   }
   
 [PUT]
-  https://serviceapijeissonjuanias.azurewebsites.net/api/Product
+ https://localhost:7265/api/Product
   
   Request body
     
@@ -43,8 +43,8 @@ Consumo de API
     "active": 0
   }
   
-  [DELETE] 
-  https://serviceapijeissonjuanias.azurewebsites.net/api/Product/{id}
+[DELETE] 
+  https://localhost:7265/api/Product/{id}
   
   
   
